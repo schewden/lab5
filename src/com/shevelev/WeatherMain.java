@@ -1,5 +1,5 @@
 package com.shevelev;
-import com.shevelev.print.*;
+
 import com.shevelev.print.WeatherPrint;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
