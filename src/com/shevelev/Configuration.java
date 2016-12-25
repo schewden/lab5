@@ -16,7 +16,7 @@ import org.springframework.context.annotation.*;
 public class Configuration {
     @Bean
     @Description("Получить прогноз погоды в Санкт-Петербурге(текущее описания бина weatherService)")
-    WeatherService weatherService(){
+    public WeatherService weatherService(){
         return new WeatherServiceImpl();
     }
 }

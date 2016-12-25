@@ -2,8 +2,6 @@ package com.shevelev.service;
 
 import com.github.fedy2.weather.data.Channel;
 import org.springframework.stereotype.Component;
-
-
 import javax.xml.bind.JAXBException;
 import java.io.IOException;
 
